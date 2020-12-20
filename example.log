@@ -1,0 +1,516 @@
+This is LuaHBTeX, Version 1.12.0 (TeX Live 2020/Arch Linux)  (format=lualatex 2020.11.6)  20 DEC 2020 17:52
+ restricted system commands enabled.
+**example.tex
+(./example.tex
+LaTeX2e <2020-02-02> patch level 5
+Lua module: luaotfload-main 2020-05-06 3.14 luaotfload entry point
+Lua module: luaotfload-init 2020-05-06 3.14 luaotfload submodule / initializatio
+n
+Lua module: lualibs 2020-05-01 2.71 ConTeXt Lua standard libraries.
+Lua module: lualibs-extended 2020-05-01 2.71 ConTeXt Lua libraries -- extended c
+ollection.
+Lua module: luaotfload-log 2020-05-06 3.14 luaotfload submodule / logging
+Lua module: luaotfload-parsers 2020-05-06 3.14 luaotfload submodule / filelist
+Lua module: luaotfload-configuration 2020-05-06 3.14 luaotfload submodule / conf
+ig file reader
+luaotfload | conf : Root cache directory is "/home/sahibram/.texlive/texmf-var/l
+uatex-cache/generic-dev/names".
+luaotfload | init : Loading fontloader "fontloader-2020-05-06.lua" from kpse-res
+olved path "/usr/share/texmf-dist/tex/luatex/luaotfload/fontloader-2020-05-06.lu
+a".
+Lua-only attribute luaotfload@noligature = 1
+Lua-only attribute luaotfload@syllabe = 2
+luaotfload | init : Context OpenType loader version 0x1.8e353f7ced917p+1
+Lua module: luaotfload-fallback 2020-05-06 3.14 luaotfload submodule / fallback
+Lua module: luaotfload-multiscript 2020-05-06 3.14 luaotfload submodule / multis
+cript
+Lua module: luaotfload-script 2020-05-06 3.14 luaotfload submodule / Script help
+ers
+Inserting `luaotfload.node_processor' at position 1 in `pre_linebreak_filter'.
+Inserting `luaotfload.node_processor' at position 1 in `hpack_filter'.
+Lua module: luaotfload-loaders 2020-05-06 3.14 luaotfload submodule / callback h
+andling
+Inserting `luaotfload.define_font' at position 1 in `define_font'.
+Lua module: luaotfload-database 2020-05-06 3.14 luaotfload submodule / database
+Lua module: luaotfload-unicode 2020-05-06 3.14 luaotfload submodule / Unicode he
+lpers
+Lua module: luaotfload-colors 2020-05-06 3.14 luaotfload submodule / color
+Lua-only attribute luaotfload_color_attribute = 3
+Lua module: luaotfload-resolvers 2020-05-06 3.14 luaotfload submodule / resolver
+s
+luaotfload | conf : Root cache directory is "/home/sahibram/.texlive/texmf-var/l
+uatex-cache/generic-dev/names".
+Lua module: luaotfload-features 2020-05-06 3.14 luaotfload submodule / features
+Lua module: luaotfload-harf-define 2020-05-06 3.14 luaotfload submodule / databa
+se
+Inserting `luaotfload.harf.strip_prefix' at position 1 in `find_opentype_file'.
+Inserting `luaotfload.harf.strip_prefix' at position 1 in `find_truetype_file'.
+Lua module: luaotfload-harf-plug 2020-05-06 3.14 luaotfload submodule / database
+Inserting `Harf pre_output_filter callback' at position 1 in `pre_output_filter'
+.
+Inserting `Harf wrapup_run callback' at position 1 in `wrapup_run'.
+Inserting `Harf finish_pdffile callback' at position 1 in `finish_pdffile'.
+Inserting `Harf glyph_info callback' at position 1 in `glyph_info'.
+Lua module: luaotfload-letterspace 2020-05-06 3.14 luaotfload submodule / color
+Lua module: luaotfload-embolden 2020-05-06 3.14 luaotfload submodule / color
+Lua module: luaotfload-notdef 2020-05-06 3.14 luaotfload submodule / color
+Lua module: luaotfload-suppress 2020-05-06 3.14 luaotfload submodule / suppress
+Lua module: luaotfload-szss 2020-05-06 3.14 luaotfload submodule / color
+Lua module: luaotfload-auxiliary 2020-05-06 3.14 luaotfload submodule / auxiliar
+y functions
+Inserting `luaotfload.aux.set_sscale_dimens' at position 1 in `luaotfload.patch_
+font'.
+Inserting `luaotfload.aux.set_font_index' at position 2 in `luaotfload.patch_fon
+t'.
+Inserting `luaotfload.aux.patch_cambria_domh' at position 3 in `luaotfload.patch
+_font'.
+Inserting `luaotfload.aux.fixup_fontdata' at position 1 in `luaotfload.patch_fon
+t_unsafe'.
+Inserting `luaotfload.aux.set_capheight' at position 4 in `luaotfload.patch_font
+'.
+Inserting `luaotfload.aux.set_xheight' at position 5 in `luaotfload.patch_font'.
+Lua module: luaotfload-tounicode 2020-05-06 3.14 luaotfload submodule / tounicod
+e
+Inserting `luaotfload.rewrite_fontname' at position 6 in `luaotfload.patch_font'
+. L3 programming layer <2020-06-03>
+(/usr/share/texmf-dist/tex/latex/koma-script/scrarticle.cls
+Document Class: scrarticle 2020/04/19 v3.30 KOMA-Script document class (article)
+
+(/usr/share/texmf-dist/tex/latex/koma-script/scrartcl.cls
+Document Class: scrartcl 2020/04/19 v3.30 KOMA-Script document class (article)
+(/usr/share/texmf-dist/tex/latex/koma-script/scrkbase.sty
+Package: scrkbase 2020/04/19 v3.30 KOMA-Script package (KOMA-Script-dependent ba
+sics and keyval usage)
+
+(/usr/share/texmf-dist/tex/latex/koma-script/scrbase.sty
+Package: scrbase 2020/04/19 v3.30 KOMA-Script package (KOMA-Script-independent b
+asics and keyval usage)
+
+(/usr/share/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks15
+)
+(/usr/share/texmf-dist/tex/latex/koma-script/scrlfile.sty
+Package: scrlfile 2020/04/19 v3.30 KOMA-Script package (loading files)
+)))
+(/usr/share/texmf-dist/tex/latex/koma-script/tocbasic.sty
+Package: tocbasic 2020/04/19 v3.30 KOMA-Script package (handling toc-files)
+\scr@dte@tocline@numberwidth=\skip47
+\scr@dte@tocline@numbox=\box45
+)
+Package tocbasic Info: babel extension for `toc' omitted
+(tocbasic)             because of missing \bbl@set@language on input line 135.
+Class scrartcl Info: File `scrsize11pt.clo' used instead of
+(scrartcl)           file `scrsize11.clo' to setup font sizes on input line 2212
+.
+
+(/usr/share/texmf-dist/tex/latex/koma-script/scrsize11pt.clo
+File: scrsize11pt.clo 2020/04/19 v3.30 KOMA-Script font size class option (11pt)
+
+luaotfload | db : Font names database loaded from /home/sahibram/.texlive/texmf-
+var/luatex-cache/generic-dev/names/luaotfload-names.luc)
+(/usr/share/texmf-dist/tex/latex/koma-script/typearea.sty
+Package: typearea 2020/04/19 v3.30 KOMA-Script package (type area)
+\ta@bcor=\skip48
+\ta@div=\count163
+Package typearea Info: You've used standard option `a4paper'.
+(typearea)             This is correct!
+(typearea)             Internally I'm using `paper=a4'.
+(typearea)             If you'd like to set the option with \KOMAoptions,
+(typearea)             you'd have to use `paper=a4' there
+(typearea)             instead of `a4paper', too.
+\ta@hblk=\skip49
+\ta@vblk=\skip50
+\ta@temp=\skip51
+\footheight=\skip52
+Package typearea Info: These are the values describing the layout:
+(typearea)             DIV  = 10
+(typearea)             BCOR = 0.0pt
+(typearea)             \paperwidth      = 597.50793pt
+(typearea)              \textwidth      = 418.25555pt
+(typearea)              DIV departure   = -6%
+(typearea)              \evensidemargin = 17.3562pt
+(typearea)              \oddsidemargin  = 17.3562pt
+(typearea)             \paperheight     = 845.04694pt
+(typearea)              \textheight     = 595.80026pt
+(typearea)              \topmargin      = -25.16531pt
+(typearea)              \headheight     = 17.0pt
+(typearea)              \headsep        = 20.40001pt
+(typearea)              \topskip        = 11.0pt
+(typearea)              \footskip       = 47.6pt
+(typearea)              \baselineskip   = 13.6pt
+(typearea)              on input line 1738.
+)
+\c@part=\count164
+\c@section=\count165
+\c@subsection=\count166
+\c@subsubsection=\count167
+\c@paragraph=\count168
+\c@subparagraph=\count169
+\scr@dte@section@maxnumwidth=\skip53
+Class scrartcl Info: using compatibility default `runin=bysign'
+(scrartcl)           for `\section on input line 4761.
+Class scrartcl Info: using compatibility default `afterindent=bysign'
+(scrartcl)           for `\section on input line 4761.
+\scr@dte@part@maxnumwidth=\skip54
+Class scrartcl Info: using compatibility default `afterindent=false'
+(scrartcl)           for `\part on input line 4769.
+\scr@dte@subsection@maxnumwidth=\skip55
+Class scrartcl Info: using compatibility default `runin=bysign'
+(scrartcl)           for `\subsection on input line 4779.
+Class scrartcl Info: using compatibility default `afterindent=bysign'
+(scrartcl)           for `\subsection on input line 4779.
+\scr@dte@subsubsection@maxnumwidth=\skip56
+Class scrartcl Info: using compatibility default `runin=bysign'
+(scrartcl)           for `\subsubsection on input line 4789.
+Class scrartcl Info: using compatibility default `afterindent=bysign'
+(scrartcl)           for `\subsubsection on input line 4789.
+\scr@dte@paragraph@maxnumwidth=\skip57
+Class scrartcl Info: using compatibility default `runin=bysign'
+(scrartcl)           for `\paragraph on input line 4799.
+Class scrartcl Info: using compatibility default `afterindent=bysign'
+(scrartcl)           for `\paragraph on input line 4799.
+\scr@dte@subparagraph@maxnumwidth=\skip58
+Class scrartcl Info: using compatibility default `runin=bysign'
+(scrartcl)           for `\subparagraph on input line 4809.
+Class scrartcl Info: using compatibility default `afterindent=bysign'
+(scrartcl)           for `\subparagraph on input line 4809.
+\abovecaptionskip=\skip59
+\belowcaptionskip=\skip60
+\c@pti@nb@sid@b@x=\box46
+Package tocbasic Info: babel extension for `lof' omitted
+(tocbasic)             because of missing \bbl@set@language on input line 6040.
+\scr@dte@figure@maxnumwidth=\skip61
+\c@figure=\count170
+Package tocbasic Info: babel extension for `lot' omitted
+(tocbasic)             because of missing \bbl@set@language on input line 6052.
+\scr@dte@table@maxnumwidth=\skip62
+\c@table=\count171
+Class scrartcl Info: Redefining `\numberline' on input line 6216.
+\bibindent=\dimen134
+))
+(/usr/share/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2020/05/13 3.44 The Babel package
+
+(/usr/share/texmf-dist/tex/generic/babel/babel.def
+File: babel.def 2020/05/13 3.44 Babel common definitions
+
+(/usr/share/texmf-dist/tex/generic/babel/luababel.def
+\bbl@readstream=\read2
+\l@dumylang=\language2
+Package babel Info: Non-standard hyphenation setup on input line 117.
+\l@nohyphenation=\language3
+\l@german-x-2019-04-04=\language4
+\l@ngerman-x-2019-04-04=\language5
+\l@afrikaans=\language6
+\l@ancientgreek=\language7
+\l@ibycus=\language8
+\l@arabic=\language9
+\l@armenian=\language10
+\l@basque=\language11
+\l@belarusian=\language12
+\l@bulgarian=\language13
+\l@catalan=\language14
+\l@pinyin=\language15
+\l@churchslavonic=\language16
+\l@coptic=\language17
+\l@croatian=\language18
+\l@czech=\language19
+\l@danish=\language20
+\l@dutch=\language21
+\l@ukenglish=\language22
+\l@usenglishmax=\language23
+\l@esperanto=\language24
+\l@estonian=\language25
+\l@ethiopic=\language26
+\l@farsi=\language27
+\l@finnish=\language28
+\l@french=\language29
+\l@friulan=\language30
+\l@galician=\language31
+\l@georgian=\language32
+\l@german=\language33
+\l@ngerman=\language34
+\l@swissgerman=\language35
+\l@greek=\language36
+\l@monogreek=\language37
+\l@hungarian=\language38
+\l@icelandic=\language39
+\l@assamese=\language40
+\l@bengali=\language41
+\l@gujarati=\language42
+\l@hindi=\language43
+\l@kannada=\language44
+\l@malayalam=\language45
+\l@marathi=\language46
+\l@oriya=\language47
+\l@pali=\language48
+\l@panjabi=\language49
+\l@tamil=\language50
+\l@telugu=\language51
+\l@indonesian=\language52
+\l@interlingua=\language53
+\l@irish=\language54
+\l@italian=\language55
+\l@kurmanji=\language56
+\l@classiclatin=\language57
+\l@latin=\language58
+\l@liturgicallatin=\language59
+\l@latvian=\language60
+\l@lithuanian=\language61
+\l@macedonian=\language62
+\l@mongolian=\language63
+\l@mongolianlmc=\language64
+\l@bokmal=\language65
+\l@nynorsk=\language66
+\l@occitan=\language67
+\l@piedmontese=\language68
+\l@polish=\language69
+\l@portuguese=\language70
+\l@romanian=\language71
+\l@romansh=\language72
+\l@russian=\language73
+\l@sanskrit=\language74
+\l@serbian=\language75
+\l@serbianc=\language76
+\l@slovak=\language77
+\l@slovenian=\language78
+\l@spanish=\language79
+\l@swedish=\language80
+\l@thai=\language81
+\l@turkish=\language82
+\l@turkmen=\language83
+\l@ukrainian=\language84
+\l@uppersorbian=\language85
+\l@welsh=\language86
+\babelcatcodetablenum=\catcodetable5
+\bbl@pattcodes=\catcodetable6
+)
+\babel@savecnt=\count172
+\U@D=\dimen135
+\l@babelnohyphens=\language87
+
+(/usr/share/texmf-dist/tex/generic/babel/luababel.def
+\bbl@attr@locale=\attribute4
+))
+(/usr/share/texmf-dist/tex/generic/babel-german/ngerman.ldf
+Language: ngerman 2018/12/08 v2.11 German support for babel (post-1996 orthograp
+hy)
+
+(/usr/share/texmf-dist/tex/generic/babel-german/ngermanb.ldf
+Language: ngermanb 2018/12/08 v2.11 German support for babel (post-1996 orthogra
+phy)
+Package babel Info: Making " an active character on input line 121.
+
+(/usr/share/texmf-dist/tex/generic/hyph-utf8/loadhyph/loadhyph-de-1996.tex
+UTF-8 German hyphenation patterns (reformed orthography)
+(/usr/share/texmf-dist/tex/generic/hyph-utf8/patterns/tex/hyph-de-1996.tex
+German Hyphenation Patterns (Reformed Orthography, 2006) `dehyphn-x' 2019-04-04
+ (WL)))))) (./babel-iast.sty
+Package babel Info: Importing data for iast
+(babel)             from babel-sa-Deva.ini. Reported on input line 1.
+Package babel Info: \l@iast = using hyphenrules for sanskrit
+(babel)             (\language74) on input line 1.
+Inserting `Babel.hyphenate' at position 1 in `hyphenate'.)
+(/usr/share/texmf-dist/tex/latex/fontspec/fontspec.sty
+(/usr/share/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+(/usr/share/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2020-06-03 L3 programming layer (loader) 
+
+(/usr/share/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
+File: l3backend-pdfmode.def 2020-06-03 L3 backend support: PDF mode
+\l__kernel_color_stack_int=\count173
+\l__pdf_internal_box=\box47
+))
+Package: xparse 2020-05-15 L3 Experimental document command parser
+
+(/usr/share/texmf-dist/tex/latex/l3packages/xparse/xparse-generic.tex
+\l__xparse_current_arg_int=\count174
+\g__xparse_grabber_int=\count175
+\l__xparse_m_args_int=\count176
+\l__xparse_v_nesting_int=\count177
+))
+Package: fontspec 2020/02/21 v2.7i Font selection for XeLaTeX and LuaLaTeX
+Lua module: fontspec 2020/02/21 2.7i Font selection for XeLaTeX and LuaLaTeX
+(/usr/share/texmf-dist/tex/latex/fontspec/fontspec-luatex.sty
+Package: fontspec-luatex 2020/02/21 v2.7i Font selection for XeLaTeX and LuaLaTe
+X
+\l__fontspec_script_int=\count178
+\l__fontspec_language_int=\count179
+\l__fontspec_strnum_int=\count180
+\l__fontspec_tmp_int=\count181
+\l__fontspec_tmpa_int=\count182
+\l__fontspec_tmpb_int=\count183
+\l__fontspec_tmpc_int=\count184
+\l__fontspec_em_int=\count185
+\l__fontspec_emdef_int=\count186
+\l__fontspec_strong_int=\count187
+\l__fontspec_strongdef_int=\count188
+\l__fontspec_tmpa_dim=\dimen136
+\l__fontspec_tmpb_dim=\dimen137
+\l__fontspec_tmpc_dim=\dimen138
+
+(/usr/share/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2020/02/11 v2.0o Standard LaTeX package
+)
+(/usr/share/texmf-dist/tex/latex/fontspec/fontspec.cfg)))
+(/usr/share/texmf-dist/tex/generic/babel/locale/de/babel-ngerman.tex
+(/usr/share/texmf-dist/tex/generic/babel/locale/de/babel-german.tex
+Package babel Info: Importing font and identification data for ngerman
+(babel)             from babel-de.ini. Reported on input line 11.
+))
+(./example.aux
+
+Package babel Info: The following font families will use the default
+(babel)             settings for all or some languages:
+(babel)             * \rmfamily = lmr
+(babel)               [lmroman10-regular]:+tlig; at 10.95pt
+(babel)             * \sffamily = lmss
+(babel)               [lmsans10-regular]:+tlig; at 10.95pt
+(babel)             * \ttfamily = lmtt
+(babel)               [lmmono10-regular]: at 10.95pt
+(babel)             There is nothing intrinsically wrong with it, but
+(babel)             'babel' will no set Script and Language, which could
+(babel)             be relevant in some languages. If your document uses
+(babel)             these families, consider redefining them with \babelfont.
+(babel)             Reported on input line 3.
+
+luaotfload | cache : Lookup cache loaded from /home/sahibram/.texlive/texmf-var/
+luatex-cache/generic-dev/names/luaotfload-lookup-cache.luc.
+
+Package fontspec Warning: Language 'Sanskrit' not available for font
+(fontspec)                'DevanagariMT' with script 'Devanagari'.
+
+
+Package fontspec Info: Could not resolve font "DevanagariMT/BI" (it probably
+(fontspec)             doesn't exist).
+
+
+Package fontspec Info: Could not resolve font "DevanagariMT/I" (it probably
+(fontspec)             doesn't exist).
+
+
+Package fontspec Info: Font family 'DevanagariMT(0)' created for font
+(fontspec)             'DevanagariMT' with options
+(fontspec)             [Ligatures=TeX,Script=Devanagari,Language=Sanskrit,Render
+er=Harfbuzz].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->"DevanagariMT:mode=harf;script=deva;language=dflt;+tli
+g;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->"DevanagariMT/B:mode=harf;script=deva;language=dflt;+t
+lig;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
+
+(/usr/share/texmf-dist/tex/generic/hyph-utf8/loadhyph/loadhyph-sa.tex
+UTF-8 Sanskrit hyphenation patterns
+(/usr/share/texmf-dist/tex/generic/hyph-utf8/patterns/tex/hyph-sa.tex)))
+\openout1 = example.aux
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 7.
+LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 7.
+
+
+(/usr/share/texmf-dist/tex/latex/base/ts1cmr.fd
+File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
+)
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+
+Package fontspec Info: Adjusting the maths setup (use [no-math] to avoid
+(fontspec)             this).
+
+\symlegacymaths=\mathgroup4
+LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 7.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 7.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 7.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 7.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 7.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 7.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 7.
+LaTeX Font Info:    Redeclaring math accent \check on input line 7.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 7.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 7.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 7.
+LaTeX Font Info:    Redeclaring math symbol \colon on input line 7.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 7.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 7.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 7.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 7.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 7.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 7.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 7.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 7.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 7.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 7.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 7.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 7.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 7.
+LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
+(Font)              `operators' in the math version `normal' on input line 7.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> TU/lmr/m/n on input line 7.
+LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
+(Font)              `operators' in the math version `bold' on input line 7.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> TU/lmr/m/n on input line 7.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  TU/lmr/m/n --> TU/lmr/m/n on input line 7.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> TU/lmr/m/it on input line 7.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> TU/lmr/b/n on input line 7.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 7.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 7.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  TU/lmr/m/n --> TU/lmr/b/n on input line 7.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> TU/lmr/b/it on input line 7.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 7.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 7.
+ [1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./example.aux))
+
+Here is how much of LuaTeX's memory you used:
+ 6731 strings out of 480885
+ 100000,662416 words of node,token memory allocated
+ 1869 words of node memory still in use:
+   4 hlist, 1 vlist, 1 rule, 5 glue, 3 kern, 194 glyph, 25 attribute, 52 glue_sp
+ec, 14 attribute_list, 1 write nodes
+   avail lists: 2:37,3:325,4:1,5:24,6:7,7:588,9:30,11:112
+ 24233 multiletter control sequences out of 65536+600000
+ 35 fonts using 5015651 bytes
+ 55i,6n,88p,10111b,435s stack positions out of 5000i,500n,10000p,200000b,100000s
+</usr/share/texmf-dist/fonts/opentype/public/lm/lmroman10-regular.otf></usr/shar
+e/fonts/eigene/Monotype-Devanagari/DevanagariMT-Reg.ttf>
+Output written on example.pdf (1 page, 31339 bytes).
+
+PDF statistics: 23 PDF objects out of 1000 (max. 8388607)
+ 12 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 131072)
+ 1 words of extra memory for PDF output out of 10000 (max. 100000000)
+

@@ -1,0 +1,91 @@
+\babelprovide[import=sa-Deva]{iast} 
+
+% uppercase to lowercase
+\babelprehyphenation{iast}{([AIUṚṜḶḸEOṂḤKGṄCJÑṬḌṆTDNPBMYRLVŚṢSH])}{
+  string = {1|AIUṚṜḶḸEOṂḤKGṄCJÑṬḌṆTDNPBMYRLVŚṢSH|aiuṛṝḷḹeoṃḥkgṅcjñṭḍṇtdnpbmyrlvśṣsh},
+}
+
+% whitespace: currently not supported by babel, so this is a mere workaround
+% \babelprehyphenation{iast}{([kgṅcjñṭḍṇtdnpbmyrlvśṣsh])[ ]([aiuṛṝḷḹeokgṅcjñṭḍṇtdnpbmyrlvśṣsh])}{
+%   string = {1},
+%   remove,
+%   string = {2},
+% }
+\babelprehyphenation{iast}{-}{remove,}
+
+% special strings
+\babelprehyphenation{iast}{oṃ}{string = ॐ,}
+
+% aspirata
+\babelprehyphenation{iast}{([kgcjṭḍtdpb])[h][a]([iu])}{
+  string = {1|kgcjṭḍtdpb|खघछझठढथधफभ},
+  remove,
+  remove,
+  string = {2|iu|ैौ},
+}
+
+\babelprehyphenation{iast}{([kgcjṭḍtdpb])[h][a]}{
+  string = {1|kgcjṭḍtdpb|खघछझठढथधफभ},
+  remove,
+  remove,
+}
+
+\babelprehyphenation{iast}{([kgcjṭḍtdpb])[h]([āiīuūṛṝḷḹeo])}{
+  string = {1|kgcjṭḍtdpb|खघछझठढथधफभ},
+  remove,
+  string = {2|āiīuūṛṝḷḹeo|ािीुूृॄॢॣेो},
+}
+
+\babelprehyphenation{iast}{([kgcjṭḍtdpb])[h]}{
+  string = {1|kgcjṭḍtdpb|खघछझठढथधफभ}्,
+  remove,
+}
+
+% tenues
+\babelprehyphenation{iast}{([kgṅcjñṭḍṇtdnpbmyrlvśṣsh])[a]([iu])}{
+  string = {1|kgṅcjñṭḍṇtdnpbmyrlvśṣsh|कगङचजञटडणतदनपबमयरलवशषसह},
+  remove,
+  string = {2|iu|ैौ},
+}
+
+\babelprehyphenation{iast}{([kgṅcjñṭḍṇtdnpbmyrlvśṣsh])[a]}{
+  string = {1|kgṅcjñṭḍṇtdnpbmyrlvśṣsh|कगङचजञटडणतदनपबमयरलवशषसह},
+  remove,
+}
+
+\babelprehyphenation{iast}{([kgṅcjñṭḍṇtdnpbmyrlvśṣsh])([āiīuūṛṝḷḹeo])}{
+  string = {1|kgṅcjñṭḍṇtdnpbmyrlvśṣsh|कगङचजञटडणतदनपबमयरलवशषसह},
+  string = {2|āiīuūṛṝḷḹeo|ािीुूृॄॢॣेो},
+}
+
+\babelprehyphenation{iast}{([kgṅcjñṭḍṇtdnpbmyrlvśṣsh])}{
+  string = {1|kgṅcjñṭḍṇtdnpbmyrlvśṣsh|कगङचजञटडणतदनपबमयरलवशषसह}्,
+}
+
+% initial vowels
+\babelprehyphenation{iast}{ai}{string = ऐ,}
+\babelprehyphenation{iast}{au}{string = औ,}
+\babelprehyphenation{iast}{a}{string = अ,}
+\babelprehyphenation{iast}{ā}{string = आ,}
+\babelprehyphenation{iast}{i}{string = इ,}
+\babelprehyphenation{iast}{ī}{string = ई,}
+\babelprehyphenation{iast}{u}{string = उ,}
+\babelprehyphenation{iast}{ū}{string = ऊ,}
+\babelprehyphenation{iast}{ṛ}{string = ऋ,}
+\babelprehyphenation{iast}{ṝ}{string = ॠ,}
+\babelprehyphenation{iast}{ḷ}{string = लृ,}
+\babelprehyphenation{iast}{ḹ}{string = लॄ,}
+\babelprehyphenation{iast}{e}{string = ए,}
+\babelprehyphenation{iast}{o}{string = ओ,}
+
+% special characters
+\babelprehyphenation{iast}{'}{string = ऽ,}
+\babelprehyphenation{iast}{ṃ}{string = ं,}
+\babelprehyphenation{iast}{ḥ}{string = ः,}
+
+% numbers
+\babelprehyphenation{iast}{([0123456789])}{string = {1|0123456789|०१२३४५६७८९},}
+
+% punctuation
+\babelprehyphenation{iast}{[./]}{string = ।,}
+\babelprehyphenation{iast}{[:]}{string =  –,}
