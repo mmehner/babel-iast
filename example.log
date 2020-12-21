@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.12.0 (TeX Live 2020/Arch Linux)  (format=lualatex 2020.11.6)  20 DEC 2020 17:52
+This is LuaHBTeX, Version 1.12.0 (TeX Live 2020/Arch Linux)  (format=lualatex 2020.11.6)  21 DEC 2020 13:24
  restricted system commands enabled.
 **example.tex
 (./example.tex
@@ -100,12 +100,17 @@ Package: tocbasic 2020/04/19 v3.30 KOMA-Script package (handling toc-files)
 )
 Package tocbasic Info: babel extension for `toc' omitted
 (tocbasic)             because of missing \bbl@set@language on input line 135.
-Class scrartcl Info: File `scrsize11pt.clo' used instead of
-(scrartcl)           file `scrsize11.clo' to setup font sizes on input line 2212
-.
+Package scrartcl Info: You've used standard option `12pt'.
+(scrartcl)             This is correct!
+(scrartcl)             Internally I'm using `fontsize=12pt'.
+(scrartcl)             If you'd like to set the option with \KOMAoptions,
+(scrartcl)             you'd have to use `fontsize=12pt' there
+(scrartcl)             instead of `12pt', too.
+Class scrartcl Info: File `scrsize12pt.clo' used to setup font sizes on input li
+ne 2212.
 
-(/usr/share/texmf-dist/tex/latex/koma-script/scrsize11pt.clo
-File: scrsize11pt.clo 2020/04/19 v3.30 KOMA-Script font size class option (11pt)
+(/usr/share/texmf-dist/tex/latex/koma-script/scrsize12pt.clo
+File: scrsize12pt.clo 2020/04/19 v3.30 KOMA-Script font size class option (12pt)
 
 luaotfload | db : Font names database loaded from /home/sahibram/.texlive/texmf-
 var/luatex-cache/generic-dev/names/luaotfload-names.luc)
@@ -124,21 +129,21 @@ Package typearea Info: You've used standard option `a4paper'.
 \ta@temp=\skip51
 \footheight=\skip52
 Package typearea Info: These are the values describing the layout:
-(typearea)             DIV  = 10
+(typearea)             DIV  = 12
 (typearea)             BCOR = 0.0pt
 (typearea)             \paperwidth      = 597.50793pt
-(typearea)              \textwidth      = 418.25555pt
+(typearea)              \textwidth      = 448.13095pt
 (typearea)              DIV departure   = -6%
-(typearea)              \evensidemargin = 17.3562pt
-(typearea)              \oddsidemargin  = 17.3562pt
+(typearea)              \evensidemargin = 2.4185pt
+(typearea)              \oddsidemargin  = 2.4185pt
 (typearea)             \paperheight     = 845.04694pt
-(typearea)              \textheight     = 595.80026pt
-(typearea)              \topmargin      = -25.16531pt
-(typearea)              \headheight     = 17.0pt
-(typearea)              \headsep        = 20.40001pt
-(typearea)              \topskip        = 11.0pt
-(typearea)              \footskip       = 47.6pt
-(typearea)              \baselineskip   = 13.6pt
+(typearea)              \textheight     = 635.5pt
+(typearea)              \topmargin      = -41.72441pt
+(typearea)              \headheight     = 18.125pt
+(typearea)              \headsep        = 21.75pt
+(typearea)              \topskip        = 12.0pt
+(typearea)              \footskip       = 50.75pt
+(typearea)              \baselineskip   = 14.5pt
 (typearea)              on input line 1738.
 )
 \c@part=\count164
@@ -364,11 +369,11 @@ Package babel Info: Importing font and identification data for ngerman
 Package babel Info: The following font families will use the default
 (babel)             settings for all or some languages:
 (babel)             * \rmfamily = lmr
-(babel)               [lmroman10-regular]:+tlig; at 10.95pt
+(babel)               [lmroman12-regular]:+tlig;
 (babel)             * \sffamily = lmss
-(babel)               [lmsans10-regular]:+tlig; at 10.95pt
+(babel)               [lmsans12-regular]:+tlig;
 (babel)             * \ttfamily = lmtt
-(babel)               [lmmono10-regular]: at 10.95pt
+(babel)               [lmmono12-regular]:
 (babel)             There is nothing intrinsically wrong with it, but
 (babel)             'babel' will no set Script and Language, which could
 (babel)             be relevant in some languages. If your document uses
@@ -496,18 +501,18 @@ LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./example.aux))
 
 Here is how much of LuaTeX's memory you used:
- 6731 strings out of 480885
+ 6730 strings out of 480885
  100000,662416 words of node,token memory allocated
  1869 words of node memory still in use:
    4 hlist, 1 vlist, 1 rule, 5 glue, 3 kern, 194 glyph, 25 attribute, 52 glue_sp
 ec, 14 attribute_list, 1 write nodes
    avail lists: 2:37,3:325,4:1,5:24,6:7,7:588,9:30,11:112
- 24233 multiletter control sequences out of 65536+600000
+ 24232 multiletter control sequences out of 65536+600000
  35 fonts using 5015651 bytes
  55i,6n,88p,10111b,435s stack positions out of 5000i,500n,10000p,200000b,100000s
-</usr/share/texmf-dist/fonts/opentype/public/lm/lmroman10-regular.otf></usr/shar
+</usr/share/texmf-dist/fonts/opentype/public/lm/lmroman12-regular.otf></usr/shar
 e/fonts/eigene/Monotype-Devanagari/DevanagariMT-Reg.ttf>
-Output written on example.pdf (1 page, 31339 bytes).
+Output written on example.pdf (1 page, 31340 bytes).
 
 PDF statistics: 23 PDF objects out of 1000 (max. 8388607)
  12 compressed objects within 1 object stream

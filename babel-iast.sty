@@ -16,7 +16,7 @@
 % special strings
 \babelprehyphenation{iast}{oṃ}{string = ॐ,}
 
-% aspirata
+% aspirata with vowels
 \babelprehyphenation{iast}{([kgcjṭḍtdpb])[h][a]([iu])}{
   string = {1|kgcjṭḍtdpb|खघछझठढथधफभ},
   remove,
@@ -36,12 +36,13 @@
   string = {2|āiīuūṛṝḷḹeo|ािीुूृॄॢॣेो},
 }
 
+% aspirata without vowels
 \babelprehyphenation{iast}{([kgcjṭḍtdpb])[h]}{
   string = {1|kgcjṭḍtdpb|खघछझठढथधफभ}्,
   remove,
 }
 
-% tenues
+% tenues with vowels
 \babelprehyphenation{iast}{([kgṅcjñṭḍṇtdnpbmyrlvśṣsh])[a]([iu])}{
   string = {1|kgṅcjñṭḍṇtdnpbmyrlvśṣsh|कगङचजञटडणतदनपबमयरलवशषसह},
   remove,
@@ -58,10 +59,12 @@
   string = {2|āiīuūṛṝḷḹeo|ािीुूृॄॢॣेो},
 }
 
+% tenues without vowels
 \babelprehyphenation{iast}{([kgṅcjñṭḍṇtdnpbmyrlvśṣsh])}{
   string = {1|kgṅcjñṭḍṇtdnpbmyrlvśṣsh|कगङचजञटडणतदनपबमयरलवशषसह}्,
 }
 
+% vowels
 % initial vowels
 \babelprehyphenation{iast}{ai}{string = ऐ,}
 \babelprehyphenation{iast}{au}{string = औ,}
