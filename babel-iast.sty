@@ -1,17 +1,17 @@
-\babelprovide[import=sa-Deva]{iast} 
+\ProvidesPackage{babel-iast}
+\babelprovide[import=sa-Deva]{iast}
 
 % uppercase to lowercase
 \babelprehyphenation{iast}{([AIUṚṜḶḸEOṂḤKGṄCJÑṬḌṆTDNPBMYRLVŚṢSH])}{
   string = {1|AIUṚṜḶḸEOṂḤKGṄCJÑṬḌṆTDNPBMYRLVŚṢSH|aiuṛṝḷḹeoṃḥkgṅcjñṭḍṇtdnpbmyrlvśṣsh},
 }
 
-% whitespace: currently not supported by babel, so this is a mere workaround
-% \babelprehyphenation{iast}{([kgṅcjñṭḍṇtdnpbmyrlvśṣsh])[ ]([aiuṛṝḷḹeokgṅcjñṭḍṇtdnpbmyrlvśṣsh])}{
-%   string = {1},
-%   remove,
-%   string = {2},
-% }
-\babelprehyphenation{iast}{-}{remove,}
+% whitespace: supported since babel 3.52
+\babelprehyphenation{iast}{([kgṅcjñṭḍṇtdnpbmyrlvśṣsh])|([aiuṛṝḷḹeokgṅcjñṭḍṇtdnpbmyrlvśṣsh])}{
+  string = {1},
+  remove,
+  string = {2},
+}
 
 % special strings
 \babelprehyphenation{iast}{oṃ}{string = ॐ,}
@@ -90,5 +90,6 @@
 \babelprehyphenation{iast}{([0123456789])}{string = {1|0123456789|०१२३४५६७८९},}
 
 % punctuation
+\babelprehyphenation{iast}{[./][./]}{string = ॥,}
 \babelprehyphenation{iast}{[./]}{string = ।,}
-\babelprehyphenation{iast}{[:]}{string =  –,}
+\babelprehyphenation{iast}{[:]}{string = –,}
